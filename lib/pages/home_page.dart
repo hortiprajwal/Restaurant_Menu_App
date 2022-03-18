@@ -93,9 +93,11 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               buildTile(Icons.account_box_outlined, 'Profile'),
-              buildTile(Icons.bug_report_outlined, 'Report a Bug'),
+              buildTile(Icons.home_outlined, 'Address'),
+              buildTile(Icons.account_balance_wallet_outlined, 'Payment Method'),
               buildTile(Icons.shopping_cart_outlined, 'Food cart'),
-              buildTile(Icons.email, 'Contact Us'),
+              buildTile(Icons.favorite_outline_rounded, 'Rate Us'),
+              buildTile(Icons.email_outlined, 'Contact Us'),
               MaterialButton(
                 child: const Text(
                   'Logout',
@@ -140,6 +142,11 @@ class _HomePageState extends State<HomePage> {
                   width: 200.0,
                   margin: const EdgeInsets.only(right: 20.0),
                   decoration: BoxDecoration(
+                    image: const DecorationImage(
+                      image: AssetImage(
+                          'images/food-coupons.png'),
+                      fit: BoxFit.fill,
+                    ),
                     borderRadius: BorderRadius.circular(10.0),
                     color: Theme.of(context).primaryColor,
                   ),
@@ -149,6 +156,10 @@ class _HomePageState extends State<HomePage> {
                   width: 200.0,
                   margin: const EdgeInsets.only(right: 20.0),
                   decoration: BoxDecoration(
+                    image: const DecorationImage(
+                     image: AssetImage('images/boston-market-2-for-20.png'),
+                      fit: BoxFit.cover,
+                    ),
                     borderRadius: BorderRadius.circular(10.0),
                     color: Theme.of(context).primaryColor,
                   ),
@@ -158,6 +169,10 @@ class _HomePageState extends State<HomePage> {
                   width: 200.0,
                   margin: const EdgeInsets.only(right: 20.0),
                   decoration: BoxDecoration(
+                    image: const DecorationImage(
+                      image: AssetImage('images/discount.png'),
+                      fit: BoxFit.cover,
+                    ),
                     borderRadius: BorderRadius.circular(10.0),
                     color: Theme.of(context).primaryColor,
                   ),
