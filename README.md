@@ -6,8 +6,9 @@ A new Flutter project.
 
 <table style="border:1px solid;">
   <tr >
+    <th style="text-align: center; border:1px solid;">Drawer Page</th>
     <th style="text-align: center; border:1px solid;">Main Page</th>
-    <th style="text-align: center; border:1px solid;">Detail Page</th>
+    <th style="text-align: center; border:1px solid;">Main Page(bottom)</th>
   </tr>
   <tr >
     <td style="text-align: center; border:1px solid;padding:1em;">
